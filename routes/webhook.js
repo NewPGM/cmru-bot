@@ -6,6 +6,12 @@ const { config } = require('../config/config');
 
 const router = express.Router();
 
+// GET route for testing
+router.get('/', (req, res) => {
+  res.send('Webhook endpoint is ready!');
+});
+
+// POST route for LINE Webhook
 router.post('/', line.middleware(config), async (req, res) => {
   try {
     console.log('Received webhook event:', req.body.events);
@@ -21,7 +27,7 @@ router.post('/', line.middleware(config), async (req, res) => {
     res.status(200).json(results);
   } catch (err) {
     console.error('Error in webhook:', err);
-    res.status(500).send('Error processing the webhook.');
+    res.status(500).json({ error: 'Error processing the webhook.', details: err.message });
   }
 });
 
