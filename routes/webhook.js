@@ -1,33 +1,29 @@
 const express = require('express');
+const { client, config } = require('../config/config');
 const line = require('@line/bot-sdk');
-const { handleEvent } = require('../controllers/lineHandler');
-const { getIntentsAndTrainingPhrasesFromDB } = require('../database/database');
-const { config } = require('../config/config');
 
 const router = express.Router();
 
-// GET route for testing
-router.get('/', (req, res) => {
-  res.send('Webhook endpoint is ready!');
-});
-
-// POST route for LINE Webhook
 router.post('/', line.middleware(config), async (req, res) => {
   try {
-    console.log('Received webhook event:', req.body.events);
     const events = req.body.events;
 
     if (!events || events.length === 0) {
       return res.status(200).send('No events to process.');
     }
 
-    const intentsData = await getIntentsAndTrainingPhrasesFromDB();
-    const results = await Promise.all(events.map(event => handleEvent(event, intentsData)));
+    // ส่งข้อความตอบกลับผู้ใช้
+    await Promise.all(events.map(async (event) => {
+      if (event.type === 'message' && event.message.type === 'text') {
+        const replyMessage = { type: 'text', text: `You said: ${event.message.text}` };
+        await client.replyMessage(event.replyToken, replyMessage);
+      }
+    }));
 
-    res.status(200).json(results);
+    res.status(200).send('Events processed.');
   } catch (err) {
-    console.error('Error in webhook:', err);
-    res.status(500).json({ error: 'Error processing the webhook.', details: err.message });
+    console.error('Error handling webhook event:', err);
+    res.status(500).send('Error processing the webhook.');
   }
 });
 
