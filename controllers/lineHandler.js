@@ -150,7 +150,7 @@ if (matchedIntent.intent_name === 'Itt') {
 
   if (instructors.length > 0) {
     const instructorsList = instructors.map(instructor => 
-      `ชื่อ: ${instructor.name} 
+      `👨‍🏫 ชื่อ: ${instructor.name} 
 ─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──
 `   
 
