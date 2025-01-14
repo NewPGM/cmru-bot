@@ -106,10 +106,11 @@ if (matchedIntent.intent_name === 'Tf') {
 
   if (degree_programs.length > 0) {
     const degree_programsList = degree_programs.map(degree => 
-      `หลักสูตร : ${degree.full_name} 
-ชื่อย่อ : ${degree.abbreviation} 
-ค่าเทอม : ${degree.tuition_fee} บาท/เทอม
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+      `🎓 หลักสูตร : ${degree.full_name} 
+📝 ชื่อย่อ : ${degree.abbreviation} 
+💰 ค่าเทอม : ${degree.tuition_fee} บาท/เทอม
+
+`   
 
     ).join('\n');
 
