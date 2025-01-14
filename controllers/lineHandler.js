@@ -41,7 +41,7 @@ async function handleEvent(event, intentsData) {
           const subjectList = subject.map(subj => 
             `📚 รหัสวิชา : ${subj.subject_code} 
 ✏️ชื่อวิชา : ${subj.subject_name}
-
+── ⋆🌟⋅☆⋅🌟⋆ ──
 `   
 
           ).join('\n');
