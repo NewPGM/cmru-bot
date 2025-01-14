@@ -128,9 +128,10 @@ if (matchedIntent.intent_name === 'Dh') {
 
   if (department_history.length > 0) {
     const department_historyList = department_history.map(department => 
-      `ในปี พ.ศ. : ${department.year} 
+      `🗓️ ในปี พ.ศ. : ${department.year} 
 ่  ${department.event_description} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
