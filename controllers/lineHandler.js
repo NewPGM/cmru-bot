@@ -179,7 +179,7 @@ if (matchedIntent.intent_name === 'อาจารย์อำนาจ โก�
   🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
   
   
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+`   
 
     ).join('\n');
     
@@ -275,8 +275,9 @@ if (matchedIntent.intent_name === 'Philosophy') {
 
   if (philosophy.length > 0) {
     const philosophyList = philosophy.map(philosophys => 
-      `${philosophys.Philosophy_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+      `📜 ${philosophys.Philosophy_name} 
+
+      `   
 
     ).join('\n');
 
@@ -1076,7 +1077,8 @@ if (matchedIntent.intent_name === 'CS') {
     const program_subjectsList = CM.map(program_subject => 
       ` 📚 รหัสวิชา : ${program_subject.subject_code} 
 ✏️ ชื่อวิชา : ${program_subject.subject_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
@@ -1098,7 +1100,8 @@ if (matchedIntent.intent_name === 'เทคโนโลยีเว็บ') {
     const program_subjectsList = CM.map(program_subject => 
       `📚รหัสวิชา : ${program_subject.subject_code} 
 ✏️ ชื่อวิชา : ${program_subject.subject_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
@@ -1121,7 +1124,8 @@ if (matchedIntent.intent_name === 'คอมพิวเตอร์ศึกษ
     const program_subjectsList = CM.map(program_subject => 
       `📚รหัสวิชา : ${program_subject.subject_code} 
 ✏️ ชื่อวิชา : ${program_subject.subject_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
@@ -1144,7 +1148,8 @@ if (matchedIntent.intent_name === 'นวัตกรรมดิจิทัล
     const program_subjectsList = CM.map(program_subject => 
       `📚รหัสวิชา : ${program_subject.subject_code} 
 ✏️ ชื่อวิชา : ${program_subject.subject_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
@@ -1167,7 +1172,8 @@ if (matchedIntent.intent_name === 'เทคโนโลยีสารสนเ
     const program_subjectsList = CM.map(program_subject => 
       `📚รหัสวิชา : ${program_subject.subject_code} 
 ✏️ ชื่อวิชา : ${program_subject.subject_name} 
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+
+`   
 
     ).join('\n');
 
