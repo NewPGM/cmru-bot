@@ -172,11 +172,11 @@ if (matchedIntent.intent_name === 'อาจารย์อำนาจ โก�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่  Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-  ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-   เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-  คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      ` 👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
   
   
 ─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
@@ -200,14 +200,14 @@ if (matchedIntent.intent_name === 'อาจารย์อำนาจ โก�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่       📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+       🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+       📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+       🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
   
   
-─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ──`   
+`   
 
     ).join('\n');
     
@@ -227,11 +227,11 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่       📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+       🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+       📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+       🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
 `   
 
     ).join('\n');
@@ -252,11 +252,11 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่       📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+       🏢ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+       📞เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+       🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
 `   
 
     ).join('\n');
@@ -295,11 +295,11 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่       📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+       🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+       📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+       🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
   `   
 
     ).join('\n');
@@ -338,11 +338,12 @@ if (matchedIntent.intent_name === 'อาจารย์ ดร.วาสนา 
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -380,12 +381,13 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`  
 
     ).join('\n');
     
@@ -431,12 +433,13 @@ if (matchedIntent.intent_name === 'อาจารย์ ดร.จิตรา�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -457,12 +460,13 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -483,12 +487,13 @@ if (matchedIntent.intent_name === 'อาจารย์ชัยทัศน์
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -508,11 +513,12 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -533,12 +539,13 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -559,12 +566,13 @@ if (matchedIntent.intent_name === 'อาจารย์ประธาน ค�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -585,12 +593,13 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`  
 
     ).join('\n');
     
@@ -610,11 +619,12 @@ if (matchedIntent.intent_name === 'อาจารย์ ว่าที่ ร.
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+     `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -636,11 +646,12 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -661,12 +672,13 @@ if (matchedIntent.intent_name === 'อาจารย์ ดร.พิรุฬ�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -687,11 +699,12 @@ if (matchedIntent.intent_name === 'อาจารย์คชพันธ์ �
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -713,11 +726,12 @@ if (matchedIntent.intent_name === 'อาจารย์พงศธร ฟอ�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -738,12 +752,13 @@ if (matchedIntent.intent_name === 'อาจารย์ศิริกรณ์
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -764,11 +779,12 @@ if (matchedIntent.intent_name === 'ผู้ช่วยศาสตราจา
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -789,12 +805,13 @@ if (matchedIntent.intent_name === 'อาจารย์ทัศนันท์
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -815,11 +832,12 @@ if (matchedIntent.intent_name === 'อาจารย์ ดร.พริ้ม�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
 `   
 
     ).join('\n');
@@ -841,12 +859,13 @@ if (matchedIntent.intent_name === 'อาจารย์ ดร.ศุภกฤ�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -867,12 +886,13 @@ if (matchedIntent.intent_name === 'คุณณัฐพร ปิงมูล�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url === null ? 'ไม่มีข้อมูล' : instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
@@ -893,12 +913,13 @@ if (matchedIntent.intent_name === 'คุณกรีฑา ปิลันธ�
 
   if (instructors.length > 0) {
     const instructorsList = bachelorPrograms.map(instructor => 
-      `ชื่อ: ${instructor.name} 
-่       Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
-       ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
-       เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
-       คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url === null ? 'ไม่มีข้อมูล' : instructor.Url}
-`   
+      `👨‍🏫 ชื่อ: ${instructor.name} 
+่  📧 Emall : ${instructor.email === 'null' || instructor.email == null ? 'ไม่มีข้อมูล' : instructor.email} 
+  🏢 ห้องพักอาจารย์ : ${instructor.room_name === 'null' || instructor.room_name == null ? 'ไม่มีข้อมูล' : instructor.room_name}
+   📞 เบอร์โทร :  ${instructor.phone_number === null ? 'ไม่มีเบอร์โทร' : instructor.phone_number}
+  🌐 คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ที่ : ${instructor.Url}
+
+`    
 
     ).join('\n');
     
