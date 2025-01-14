@@ -61,9 +61,9 @@ if (matchedIntent.intent_name === 'Locations') {
 
   if (Locations.length > 0) {
     const LocationsList = Locations.map(Loca => 
-      `อยู่ที่อาคาร : ${Loca.building} 
-ที่อยู่ : ${Loca.address}
-Gps : ${location}
+      `🏢 อยู่ที่อาคาร : ${Loca.building} 
+🗺️ ที่อยู่ : ${Loca.address}
+📡 Gps : ${location}
 
 `   
 
