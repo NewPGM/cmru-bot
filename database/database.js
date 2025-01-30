@@ -54,7 +54,7 @@ async function getLocationFromDB() {
 
 async function getcoursesFromDB() {
   try {
-    const [courses] = await pool.query('SELECT * FROM courses;');
+    const [courses] = await pool.query('SELECT * FROM degree_programs;');
     return courses;
   } catch (error) {
     console.error('Error fetching courses from database:', error);

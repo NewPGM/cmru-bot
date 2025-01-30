@@ -84,8 +84,8 @@ if (matchedIntent.intent_name === 'Dp') {
 
   if (courses.length > 0) {
     const coursesList = courses.map(course => 
-      `🔢 ลำดับ : ${course.course_id} 
-🎓 หลักสูตร : ${course.course_name} 
+      `🔢 ลำดับ : ${course.program_id} 
+🎓 หลักสูตร : ${course.full_name} 
 📝 ชื่อย่อ : ${course.abbreviation} 
 
 `   
